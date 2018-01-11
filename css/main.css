@@ -1,1 +1,51 @@
-/* Los estilos de tu proyecto */
+div.container-fluid,
+body > div > div > div.col-md-12 {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*header*/
+/*Logo*/
+body > div > div > div > nav > div > div.navbar-header > a > img {
+  height: 5vh;
+  margin-top: 6%;
+  margin-left: 80%;
+  width: 10vw;
+}
+
+body > div > div > div > nav > div,
+body > div > div > div > nav > div > div.navbar-header > a,
+#bs-example-navbar-collapse-1 {
+  background-color: white;
+  height: 70px;
+}
+
+#bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right {
+  margin-top: 1%;
+  margin-right: 5%;
+}
+/*Boton hamburguesa*/
+body > div > div > div > nav > div > div.navbar-header > button {
+  margin-top: 20px;
+}
+
+body > div > div:nth-child(1) > div > nav {
+  border: none;
+  margin: 0px;
+}
+
+/*Sección 1*/
+/*Background dela sección*/
+body > div > div:nth-child(2) > div > div.jumbotron {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+  padding-right: 0px;
+}
+/*Formulario de la derecha*/
+body > div > div:nth-child(2) > div > div > div > div.jumbotron {
+  background-color: #F7B617;
+  border-radius: 0;
+  height: 400px;
+}

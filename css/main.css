@@ -39,13 +39,41 @@ body > div > div:nth-child(1) > div > nav {
 body > div > div:nth-child(2) > div > div.jumbotron {
   background-image: url("../assets/images/taxi.jpg");
   background-size: cover;
-  background-position: bottom;
-  height: 600px;
+  background-position: 100% 92%;
+  border-radius: 0px;
+  height: 720px;
   padding-right: 0px;
+  padding-top: 170px;
 }
 /*Formulario de la derecha*/
-body > div > div:nth-child(2) > div > div > div > div.jumbotron {
+body > div > div:nth-child(2) > div > div > div > div > div.jumbotron {
   background-color: #F7B617;
   border-radius: 0;
+  color: white;
   height: 400px;
+  padding: 38px 40px;
+}
+/*Padding derecho a la columna*/
+body > div > div:nth-child(2) > div > div > div {
+  padding-right: 0px;
+}
+
+body > div > div:nth-child(2) > div > div > div > div > div > h1 {
+  font-size: 35px;
+  margin: 0px;
+}
+/*Texto del jumbotron2 */
+body > div > div:nth-child(2) > div > div > div > div > div > p:nth-child(3) {
+  margin-top: 8%;
+}
+/*Logo2*/
+body > div > div:nth-child(2) > div > div > div > div > div > p:nth-child(3) > img {
+  height: 3vh;
+  margin-left: 2%;
+  width: 6vw;
+}
+/*Líneas horizontales*/
+body > div > div:nth-child(2) > div > div > div > div > div > hr {
+  display: inline-block;
+  width: 30%;
 }

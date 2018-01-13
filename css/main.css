@@ -35,13 +35,14 @@ body > div > div:nth-child(1) > div > nav {
 }
 
 /*Sección 1*/
-/*Background dela sección*/
+/*Background de la sección*/
 body > div > div:nth-child(2) > div > div.jumbotron {
   background-image: url("../assets/images/taxi.jpg");
   background-size: cover;
   background-position: 100% 92%;
   border-radius: 0px;
   height: 720px;
+  margin: 0px;
   padding-right: 0px;
   padding-top: 170px;
 }
@@ -57,9 +58,9 @@ body > div > div:nth-child(2) > div > div > div > div > div.jumbotron {
 body > div > div:nth-child(2) > div > div > div {
   padding-right: 0px;
 }
-
+/*Texto de jumbotron*/
 body > div > div:nth-child(2) > div > div > div > div > div > h1 {
-  font-size: 35px;
+  font-size: 2em;
   margin: 0px;
 }
 /*Texto del jumbotron2 */
@@ -68,12 +69,43 @@ body > div > div:nth-child(2) > div > div > div > div > div > p:nth-child(3) {
 }
 /*Logo2*/
 body > div > div:nth-child(2) > div > div > div > div > div > p:nth-child(3) > img {
-  height: 3vh;
+  height: 4vh;
   margin-left: 2%;
-  width: 6vw;
+  width: 8vw;
 }
 /*Líneas horizontales*/
-body > div > div:nth-child(2) > div > div > div > div > div > hr {
+body > div > div:nth-child(2) > div > div > div > div > div > div > div > hr {
   display: inline-block;
   width: 30%;
+}
+/*texto "o bien"*/
+body > div > div:nth-child(2) > div > div > div > div > div > div > div > p {
+  font-size: 1em;
+  margin: 0 10%;
+}
+/*columna del jumbotron*/
+body > div > div:nth-child(2) > div > div > div > div > div > div > div {
+  margin: 5% 0;
+}
+
+/*Sección 3*/
+body > div > div:nth-child(3) > div.section-3 {
+  background-color: #F7B617;
+  color: white;
+  height: 590px;
+  padding: 50px 0px;
+}
+/*Cuadro del teléfono*/
+body > div > div:nth-child(3) > div > div > div > div.media {
+  border: 1px solid white;
+  height: 490px;
+  padding: 7vh 6vw 7vh 10vh;
+}
+/*Textos "Descarga la nueva app"*/
+body > div > div:nth-child(3) > div > div > div > div > div.media-body {
+  padding: 1vh 7vw 1vh 7vw;
+}
+
+body > div > div:nth-child(3) > div > div > div > div > div.media-body > p {
+  margin-top: 5vh;
 }

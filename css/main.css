@@ -118,3 +118,17 @@ body > div > div:nth-child(3) > div > div > div > div > div.media-body > p {
 }
 
 /*Sección 3*/
+/*Background de la sección 3*/
+body > div > div:nth-child(4) > div.section-4 {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: 100% 55%;
+  color: white;
+  height: 450px;
+}
+/*Boton "Conviértete en conductor"*/
+body > div > div:nth-child(4) > div > div > div > div > div > button {
+  background-color: #F7B617;
+  color: white;
+  font-weight: bold;
+}

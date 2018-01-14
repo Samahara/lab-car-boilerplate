@@ -123,14 +123,14 @@ body > div.jumbotron.visible-xs > div > div > div > div {
 div.section-2 > div > div {
   background-color: #F7B617;
   color: white;
-  height: 590px;
-  padding: 50px 0px;
+  height: 92vh;
+  padding: 8vh 0;
 }
 /*Cuadro del teléfono*/
 div.section-2 > div > div > div > div {
   border: 1px solid white;
   border-left: none;
-  height: 490px;
+  height: 77vh;
   padding: 5vh 6vw 5vh 10vh;
 }
 /*p de la tercera sección*/
@@ -144,7 +144,7 @@ div.section-2 > div > div > div > div > div > div.media-body {
 }
 /*Sección 2 mobile*/
 div.section-2 > div.row.visible-xs > div {
-  height: 100vh;
+  height: 101vh;
   padding: 6vh 4vw 6vh 4vw;
 }
 /*Recuadro blanco*/
@@ -160,7 +160,7 @@ div.section-2 > div.row.visible-xs > div > div > a > img {
 div.section-2 > div.row.visible-xs > div > h4 {
   font-size: 1em;
   margin: 0;
-  margin-top: 3vh;
+  margin-top: 7vh;
 }
 
 /*Sección 3*/
@@ -175,8 +175,8 @@ div.section-3 {
 /*Padding que estorban*/
 body > div.container-fluid.section-3 > div > div,
 body > div.container-fluid.section-3 > div > div > div > div {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0;
+  padding-right: 0;
 }
 /*Boton "Conviértete en conductor"*/
 button.section-3 {

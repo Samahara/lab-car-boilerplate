@@ -82,9 +82,10 @@ div.col-jumbotron2 > div.jumbotron-desktop > div > div > p {
   font-size: 1em;
   margin: 0 13%;
 }
-/*Columna del jumbotron mobile*/
-div.col-jumbotron2 > div > p:nth-child(6) > a {
-  margin: 5% 0;
+/*Jumbotron mobile*/
+div.jumbotron.visible-xs {
+  height: 70vh;
+  padding-top: 20vh;
 }
 /*Padding de la columna mobile*/
 div.mobile-jumbotron > div {
@@ -95,15 +96,27 @@ div.mobile-jumbotron > div > div {
   background-color: #F7B617;
   border-radius: 0px;
   color: white;
-  height: 45vh;
-  padding: 38px 100px 38px 40px;
-  margin: 0px;
-  margin-top: 10vh;
+  height: 30vh;
+  margin: 0;
+}
+/*Logo del jumbotron*/
+div.jumbotron.visible-xs > div > div > div > div > p:nth-child(1) > img {
+  height: 3vh;
+  margin-left: 2vw;
+  width: 14vw;
+}
+/*Jumbotron2 mobile*/
+div.jumbotron.visible-xs > div > div > div > div {
+  padding: 2vh 10vw 1vh 5vw;
 }
 /*Texto*/
 div.mobile-jumbotron > div > div > p:nth-child(1) {
-  font-size: 2.5em;
-  margin-bottom: 6vh;
+  font-size: 1.6em;
+  margin-bottom: 2vh;
+}
+/*Border-radius*/
+body > div.jumbotron.visible-xs > div > div > div > div {
+  border-radius: 0px;
 }
 
 /*Sección 2*/
@@ -131,12 +144,13 @@ div.section-2 > div > div > div > div > div > div.media-body {
 }
 /*Sección 2 mobile*/
 div.section-2 > div.row.visible-xs > div {
+  height: 100vh;
   padding: 6vh 4vw 6vh 4vw;
 }
 /*Recuadro blanco*/
 div.section-2 > div.row.visible-xs > div > div {
   border: 1px solid white;
-  padding: 5vh 4vw;
+  padding: 14vh 12vw;
 }
 /*Imagen mobile*/
 div.section-2 > div.row.visible-xs > div > div > a > img {
@@ -144,8 +158,9 @@ div.section-2 > div.row.visible-xs > div > div > a > img {
 }
 
 div.section-2 > div.row.visible-xs > div > h4 {
+  font-size: 1em;
   margin: 0;
-  margin-top: 6vh;
+  margin-top: 3vh;
 }
 
 /*Sección 3*/
@@ -155,7 +170,7 @@ div.section-3 {
   background-size: cover;
   background-position: 95% 50%;
   color: white;
-  height: 70vh;
+  height: 75vh;
 }
 /*Padding que estorban*/
 body > div.container-fluid.section-3 > div > div,
@@ -172,8 +187,8 @@ button.section-3 {
 /*Media-body opacidad*/
 body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body {
   background-color: rgba(0, 0, 0, 0.57);
-  height: 70vh;
-  padding: 20vh 3vw;
+  height: 75vh;
+  padding: 19vh 3vw;
 }
 /*Texto de la sección 3*/
 body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body > p {

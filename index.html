@@ -8,60 +8,71 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row"><!--Header row1-->
-        <div class="col-md-12">
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand logo-mobile" href="#">
-                  <img src="assets/images/logoForma.png" alt="Logo">
-                </a>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Viaja</a></li>
-                  <li><a href="#">Conduce</a></li>
-                  <li><a href="#">Inicia sesión</a></li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>
+    <!--Header-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo-mobile" href="#">
+            <img src="assets/images/logoForma.png" alt="Logo">
+          </a>
         </div>
-      </div><!--Final de la row1-->
-      <div class="row"><!--Sección 1 row2-->
-        <div class="col-md-12">
-          <div class="jumbotron">
-            <div class="row">
-              <div class="col-sm-offset-7 col-md-5">
-                <div class="jumbotron">
-                  <h1><strong>Disfruta del viaje</strong></h1>
-                  <h1><strong>Eres dueño de tu tiempo</strong></h1>
-                  <p>Viaja con <img src="assets/images/logoBlanco.png" alt="Logo2"></p>
-                  <p><a class="btn btn-default btn-lg" href="#" role="button"><strong>REGÍSTRATE</strong></a></p>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <hr class="pull-left"><p class="pull-left text-center"> O bien </p><hr class="pull-left">
-                    </div>
-                  </div>
-                  <p><a class="btn btn-default btn-lg" href="#" role="button"><strong>Conviértete en un conductor</strong></a></p>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><strong>Viaja</strong></a></li>
+            <li><a href="#"><strong>Conduce</strong></a></li>
+            <li><a href="#"><strong>Inicia sesión</strong></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!--Sección 1-->
+    <!--Jumbotron de desktop-->
+    <div class="jumbotron hidden-xs">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-offset-7 col-md-5 col-jumbotron2">
+            <div class="jumbotron jumbotron-desktop">
+              <h2><strong>Disfruta del viaje</strong></h2>
+              <h2><strong>Eres dueño de tu tiempo</strong></h2>
+              <p>Viaja con <img src="assets/images/logoBlanco.png" alt="Logo2"></p>
+              <p><a class="btn btn-default btn-lg" href="#" role="button"><strong>REGÍSTRATE</strong></a></p>
+              <div class="row">
+                <div class="col-md-12">
+                  <hr class="pull-left"><p class="pull-left text-center"> O bien </p><hr class="pull-left">
                 </div>
               </div>
+              <p><a class="btn btn-default btn-lg" href="#" role="button"><strong>Conviértete en un conductor</strong></a></p>
             </div>
           </div>
         </div>
-      </div><!--fin del row2 Sección 1-->
-      <div class="row"><!--Sección 2 row3-->
-        <div class="col-md-12 section-3">
-          <div class="row">
+      </div>
+    </div>
+    <!--Jumbotron de mobile-->
+    <div class="jumbotron visible-xs">
+      <div class="container-fluid">
+        <div class="row mobile-jumbotron">
+          <div class="col-xs-offset-3 col-xs-9">
+            <div class="jumbotron jumbotron-mobile">
+              <p>Comienza a viajar con <img src="assets/images/logoBlanco.png" alt="Logo2"></p>
+              <p><a class="btn btn-default btn-lg" href="#" role="button"><strong>Descarga el app</strong></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Sección 2-->
+    <div class="container-fluid">
+      <div class="row hidden-xs">
+        <div class="col-md-12">
+          <div class="">
             <div class="col-md-9">
               <div class="media">
                 <div class="media-left">
@@ -87,22 +98,18 @@
           </div>
         </div>
       </div><!--fin del row3 Sección 2-->
-      <div class="row"><!--Sección 3 row4-->
-        <div class="col-md-12 section-4">
-          <div class="row">
-            <div class="col-md-offset-8 col-md-4">
-              <div class="media">
-                <div class="media-body">
-                  <h3 class="media-heading"><strong>Conduce cuando quieras</strong></h3>
-                  <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-                  <button type="button" class="btn btn-default btn-lg">Conviértete en conductor</button>
-                </div>
-              </div>
-            </div>
+      <div class="row visible-xs">
+        <div class="col-md-12">
+          <div class="media">
+              <h2 class="media-heading pull-right">La nueva app</h2>
+              <a href="#">
+                <img class="media-object" src="assets/images/iPhone6Plus.png" alt="Telefono">
+              </a>
           </div>
+          <h4>Llega a tu destino aún más rápido</h4>
         </div>
-      </div><!--Fin del row4 Sección 3-->
-    </div><!--Final container-->
+      </div><!--fin del row3 Sección 2-->
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>

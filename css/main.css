@@ -1,120 +1,151 @@
-div.container-fluid,
-body > div > div > div.col-md-12 {
-  margin: 0px;
-  padding: 0px;
-}
-
-/*header*/
+/*Header*/
 /*Logo*/
-body > div > div > div > nav > div > div.navbar-header > a > img {
-  height: 5vh;
-  margin-top: 6%;
-  margin-left: 80%;
-  width: 10vw;
+a.logo-mobile {
+  padding-top: 5vh;
 }
-
-body > div > div > div > nav > div,
-body > div > div > div > nav > div > div.navbar-header > a,
+/*Contenedores del nav*/
+nav.navbar-default > div,
+div.navbar-header,
+div.navbar-header > a,
 #bs-example-navbar-collapse-1 {
   background-color: white;
-  height: 90px;
+  height: 17vh;
 }
 /*Menú del nav*/
 #bs-example-navbar-collapse-1 > ul.nav.navbar-nav.navbar-right {
-  font-weight: bold;
-  margin-top: 1.5%;
-  margin-right: 10%;
+  margin-top: 4.5vh;
+  margin-right: 10vw;
 }
 /*Espacio entre links*/
+#bs-example-navbar-collapse-1 > ul > li:nth-child(1) > a,
 #bs-example-navbar-collapse-1 > ul > li:nth-child(2) > a,
 #bs-example-navbar-collapse-1 > ul > li:nth-child(3) > a {
   margin-left: 2.5vw;
 }
 /*Boton hamburguesa*/
-body > div > div > div > nav > div > div.navbar-header > button {
-  margin-top: 20px;
+div.navbar-header > button {
+  margin-left: 6vw;
+  margin-top: 5vh;
 }
-
-body > div > div:nth-child(1) > div > nav {
+/*Borde del nav*/
+nav.navbar-default {
   border: none;
-  margin: 0px;
+  margin-bottom: 0px;
 }
 
 /*Sección 1*/
 /*Background de la sección*/
-body > div > div:nth-child(2) > div > div.jumbotron {
+body > div.jumbotron {
   background-image: url("../assets/images/taxi.jpg");
   background-size: cover;
   background-position: 100% 92%;
-  border-radius: 0px;
-  height: 720px;
+  height: 106.5vh;
   margin: 0px;
   padding-right: 0px;
-  padding-top: 170px;
+  padding-top: 23vh;
 }
 /*Formulario de la derecha*/
-body > div > div:nth-child(2) > div > div > div > div > div.jumbotron {
+div.col-jumbotron2 > div.jumbotron {
   background-color: #F7B617;
-  border-radius: 0;
+  border-radius: 0px;
   color: white;
-  height: 400px;
+  height: 60vh;
   padding: 38px 40px;
-}
-/*Padding derecho a la columna*/
-body > div > div:nth-child(2) > div > div > div {
-  padding-right: 0px;
-}
-/*Texto de jumbotron*/
-body > div > div:nth-child(2) > div > div > div > div > div > h1 {
-  font-size: 2.2em;
   margin: 0px;
 }
+/*Padding derecho a la columna*/
+div.col-jumbotron2 {
+  padding: 0;
+}
+/*Texto de jumbotron*/
+div.col-jumbotron2 > div.jumbotron-desktop > h2 {
+  font-size: 2.2em;
+  margin: 0;
+}
 /*Texto del jumbotron2 */
-body > div > div:nth-child(2) > div > div > div > div > div > p:nth-child(3) {
+div.col-jumbotron2 > div.jumbotron-desktop > p:nth-child(3) {
   margin-top: 8%;
 }
 /*Logo2*/
-body > div > div:nth-child(2) > div > div > div > div > div > p:nth-child(3) > img {
+div.col-jumbotron2 > div.jumbotron-desktop > p:nth-child(3) > img {
   height: 3.5vh;
   margin-left: 2%;
   width: 6.5vw;
 }
 /*Líneas horizontales*/
-body > div > div:nth-child(2) > div > div > div > div > div > div > div > hr {
+div.col-jumbotron2 > div.jumbotron-desktop > div > div > hr {
   display: inline-block;
-  width: 30%;
+  width: 10vw;
 }
 /*texto "o bien"*/
-body > div > div:nth-child(2) > div > div > div > div > div > div > div > p {
+div.col-jumbotron2 > div.jumbotron-desktop > div > div > p {
   font-size: 1em;
   margin: 0 13%;
 }
-/*columna del jumbotron*/
-body > div > div:nth-child(2) > div > div > div > div > div > div > div {
+/*Columna del jumbotron mobile*/
+div.col-jumbotron2 > div > p:nth-child(6) > a {
   margin: 5% 0;
+}
+/*Padding de la columna mobile*/
+div.mobile-jumbotron > div {
+  padding: 0px;
+}
+/*Jumbotron mobile*/
+div.mobile-jumbotron > div > div {
+  background-color: #F7B617;
+  border-radius: 0px;
+  color: white;
+  height: 45vh;
+  padding: 38px 100px 38px 40px;
+  margin: 0px;
+  margin-top: 10vh;
+}
+/*Texto*/
+div.mobile-jumbotron > div > div > p:nth-child(1) {
+  font-size: 2.5em;
+  margin-bottom: 6vh;
 }
 
 /*Sección 2*/
-body > div > div:nth-child(3) > div.section-3 {
+body > div.container-fluid > div > div {
   background-color: #F7B617;
   color: white;
   height: 590px;
   padding: 50px 0px;
 }
 /*Cuadro del teléfono*/
-body > div > div:nth-child(3) > div > div > div > div.media {
+body > div.container-fluid > div > div > div > div {
   border: 1px solid white;
+  border-left: none;
   height: 490px;
-  padding: 7vh 6vw 7vh 10vh;
-}
-/*Textos "Descarga la nueva app"*/
-body > div > div:nth-child(3) > div > div > div > div > div.media-body {
-  padding: 2vh 3vw 1vh 7vw;
+  padding: 5vh 6vw 5vh 10vh;
 }
 /*p de la tercera sección*/
-body > div > div:nth-child(3) > div > div > div > div > div.media-body > p {
+body > div.container-fluid > div > div > div > div > div > div.media-body > p {
   font-size: 1.6em;
   margin-top: 5vh;
+}
+/*Media-body para acomodar todo el texto*/
+body > div.container-fluid > div > div > div > div > div > div.media-body {
+  padding: 5.5vh 4vw 0vh 8vw;
+}
+/*Sección 2 mobile*/
+body > div.container-fluid > div.row.visible-xs > div {
+  padding: 6vh 4vw 6vh 4vw;
+}
+/*Recuadro blanco*/
+body > div.container-fluid > div.row.visible-xs > div > div {
+  border: 1px solid white;
+  padding: 5vh 4vw;
+}
+/*Imagen mobile*/
+body > div.container-fluid > div.row.visible-xs > div > div > a > img {
+  margin: 0 auto;
+}
+
+body > div.container-fluid > div.row.visible-xs > div > h4 {
+  margin: 0;
+  margin-top: 6vh;
 }
 
 /*Sección 3*/

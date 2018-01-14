@@ -30,7 +30,7 @@ div.navbar-header > button {
 /*Borde del nav*/
 nav.navbar-default {
   border: none;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 /*Sección 1*/
@@ -107,59 +107,76 @@ div.mobile-jumbotron > div > div > p:nth-child(1) {
 }
 
 /*Sección 2*/
-body > div.container-fluid > div > div {
+div.section-2 > div > div {
   background-color: #F7B617;
   color: white;
   height: 590px;
   padding: 50px 0px;
 }
 /*Cuadro del teléfono*/
-body > div.container-fluid > div > div > div > div {
+div.section-2 > div > div > div > div {
   border: 1px solid white;
   border-left: none;
   height: 490px;
   padding: 5vh 6vw 5vh 10vh;
 }
 /*p de la tercera sección*/
-body > div.container-fluid > div > div > div > div > div > div.media-body > p {
+div.section-2 > div > div > div > div > div > div.media-body > p {
   font-size: 1.6em;
   margin-top: 5vh;
 }
 /*Media-body para acomodar todo el texto*/
-body > div.container-fluid > div > div > div > div > div > div.media-body {
+div.section-2 > div > div > div > div > div > div.media-body {
   padding: 5.5vh 4vw 0vh 8vw;
 }
 /*Sección 2 mobile*/
-body > div.container-fluid > div.row.visible-xs > div {
+div.section-2 > div.row.visible-xs > div {
   padding: 6vh 4vw 6vh 4vw;
 }
 /*Recuadro blanco*/
-body > div.container-fluid > div.row.visible-xs > div > div {
+div.section-2 > div.row.visible-xs > div > div {
   border: 1px solid white;
   padding: 5vh 4vw;
 }
 /*Imagen mobile*/
-body > div.container-fluid > div.row.visible-xs > div > div > a > img {
+div.section-2 > div.row.visible-xs > div > div > a > img {
   margin: 0 auto;
 }
 
-body > div.container-fluid > div.row.visible-xs > div > h4 {
+div.section-2 > div.row.visible-xs > div > h4 {
   margin: 0;
   margin-top: 6vh;
 }
 
 /*Sección 3*/
 /*Background de la sección 3*/
-body > div > div:nth-child(4) > div.section-4 {
+div.section-3 {
   background-image: url("../assets/images/conduce.jpg");
   background-size: cover;
-  background-position: 100% 55%;
+  background-position: 95% 50%;
   color: white;
-  height: 450px;
+  height: 70vh;
+}
+/*Padding que estorban*/
+body > div.container-fluid.section-3 > div > div,
+body > div.container-fluid.section-3 > div > div > div > div {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 /*Boton "Conviértete en conductor"*/
-body > div > div:nth-child(4) > div > div > div > div > div > button {
+button.section-3 {
   background-color: #F7B617;
   color: white;
   font-weight: bold;
+}
+/*Media-body opacidad*/
+body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body {
+  background-color: rgba(0, 0, 0, 0.57);
+  height: 70vh;
+  padding: 20vh 3vw;
+}
+/*Texto de la sección 3*/
+body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body > p {
+  font-size: 1.35em;
+  margin: 3vh 0vw;
 }

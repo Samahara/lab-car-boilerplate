@@ -40,18 +40,18 @@ body > div.jumbotron {
   background-size: cover;
   background-position: 100% 92%;
   height: 106.5vh;
-  margin: 0px;
-  padding-right: 0px;
+  margin: 0;
+  padding-right: 0;
   padding-top: 23vh;
 }
 /*Formulario de la derecha*/
 div.col-jumbotron2 > div.jumbotron {
   background-color: #F7B617;
-  border-radius: 0px;
+  border-radius: 0;
   color: white;
   height: 60vh;
-  padding: 38px 40px;
-  margin: 0px;
+  padding: 7vh 4vw;
+  margin: 0;
 }
 /*Padding derecho a la columna*/
 div.col-jumbotron2 {
@@ -64,12 +64,12 @@ div.col-jumbotron2 > div.jumbotron-desktop > h2 {
 }
 /*Texto del jumbotron2 */
 div.col-jumbotron2 > div.jumbotron-desktop > p:nth-child(3) {
-  margin-top: 8%;
+  margin-top: 5vh;
 }
 /*Logo2*/
 div.col-jumbotron2 > div.jumbotron-desktop > p:nth-child(3) > img {
   height: 3.5vh;
-  margin-left: 2%;
+  margin-left: 1vw;
   width: 6.5vw;
 }
 /*Líneas horizontales*/
@@ -80,7 +80,7 @@ div.col-jumbotron2 > div.jumbotron-desktop > div > div > hr {
 /*texto "o bien"*/
 div.col-jumbotron2 > div.jumbotron-desktop > div > div > p {
   font-size: 1em;
-  margin: 0 13%;
+  margin: 0 5vw;
 }
 /*Jumbotron mobile*/
 div.jumbotron.visible-xs {
@@ -89,15 +89,19 @@ div.jumbotron.visible-xs {
 }
 /*Padding de la columna mobile*/
 div.mobile-jumbotron > div {
-  padding: 0px;
+  padding: 0;
 }
 /*Jumbotron mobile*/
 div.mobile-jumbotron > div > div {
   background-color: #F7B617;
-  border-radius: 0px;
+  border-radius: 0;
   color: white;
   height: 30vh;
   margin: 0;
+}
+/*Botton jumbotron*/
+div.jumbotron.hidden-xs > div > div > div > div > p:nth-child(6) > a {
+  margin-top: 2vh;
 }
 /*Logo del jumbotron*/
 div.jumbotron.visible-xs > div > div > div > div > p:nth-child(1) > img {
@@ -116,7 +120,7 @@ div.mobile-jumbotron > div > div > p:nth-child(1) {
 }
 /*Border-radius*/
 body > div.jumbotron.visible-xs > div > div > div > div {
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 /*Sección 2*/
@@ -144,7 +148,7 @@ div.section-2 > div > div > div > div > div > div.media-body {
 }
 /*Sección 2 mobile*/
 div.section-2 > div.row.visible-xs > div {
-  height: 101vh;
+  height: 105vh;
   padding: 6vh 4vw 6vh 4vw;
 }
 /*Recuadro blanco*/
@@ -160,7 +164,7 @@ div.section-2 > div.row.visible-xs > div > div > a > img {
 div.section-2 > div.row.visible-xs > div > h4 {
   font-size: 1em;
   margin: 0;
-  margin-top: 7vh;
+  margin-top: 4vh;
 }
 
 /*Sección 3*/
@@ -168,9 +172,9 @@ div.section-2 > div.row.visible-xs > div > h4 {
 div.section-3 {
   background-image: url("../assets/images/conduce.jpg");
   background-size: cover;
-  background-position: 95% 50%;
+  background-position: 95% 60%;
   color: white;
-  height: 75vh;
+  height: 80vh;
 }
 /*Padding que estorban*/
 body > div.container-fluid.section-3 > div > div,
@@ -187,11 +191,13 @@ button.section-3 {
 /*Media-body opacidad*/
 body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body {
   background-color: rgba(0, 0, 0, 0.57);
-  height: 75vh;
-  padding: 19vh 3vw;
+  height: 79.9vh;
+  padding: 0;
+  padding-left: 3vw;
+  padding-top: 19vh;
 }
 /*Texto de la sección 3*/
 body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body > p {
   font-size: 1.35em;
-  margin: 3vh 0vw;
+  margin: 3vh 0;
 }

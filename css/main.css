@@ -255,12 +255,19 @@ div.input1 > div > input,
 div.input2 > div > input {
   background-color: transparent;
   border: 1px solid white;
+  color: white;
   margin-left: 2vw;
 }
 
 div.input1 > div > input::placeholder,
 div.input2 > div > input::placeholder {
   color: white;
+}
+
+div.input1 > div > input:focus,
+div.input2 > div > input:focus {
+  border: 1px solid white;
+  box-shadow: none;
 }
 
 div.input1,

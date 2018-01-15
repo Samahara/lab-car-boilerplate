@@ -84,8 +84,8 @@ div.col-jumbotron2 > div.jumbotron-desktop > div > div > p {
 }
 /*Jumbotron mobile*/
 div.jumbotron.visible-xs {
-  height: 70vh;
-  padding-top: 20vh;
+  padding-top: 40vh;
+  padding-left: 10vw;
 }
 /*Padding de la columna mobile*/
 div.mobile-jumbotron > div {
@@ -96,7 +96,6 @@ div.mobile-jumbotron > div > div {
   background-color: #F7B617;
   border-radius: 0;
   color: white;
-  height: 30vh;
   margin: 0;
 }
 /*Botton jumbotron*/
@@ -105,13 +104,11 @@ div.jumbotron.hidden-xs > div > div > div > div > p:nth-child(6) > a {
 }
 /*Logo del jumbotron*/
 div.jumbotron.visible-xs > div > div > div > div > p:nth-child(1) > img {
-  height: 3vh;
   margin-left: 2vw;
-  width: 14vw;
 }
 /*Jumbotron2 mobile*/
 div.jumbotron.visible-xs > div > div > div > div {
-  padding: 2vh 10vw 1vh 5vw;
+  padding: 2vh 10vw 2vh 5vw;
 }
 /*Texto*/
 div.mobile-jumbotron > div > div > p:nth-child(1) {
@@ -127,7 +124,6 @@ body > div.jumbotron.visible-xs > div > div > div > div {
 div.section-2 > div > div {
   background-color: #F7B617;
   color: white;
-  height: 92vh;
   padding: 8vh 0;
 }
 /*Cuadro del teléfono*/
@@ -148,7 +144,6 @@ div.section-2 > div > div > div > div > div > div.media-body {
 }
 /*Sección 2 mobile*/
 div.section-2 > div.row.visible-xs > div {
-  height: 105vh;
   padding: 6vh 4vw 6vh 4vw;
 }
 /*Recuadro blanco*/
@@ -174,7 +169,6 @@ div.section-3 {
   background-size: cover;
   background-position: 95% 60%;
   color: white;
-  height: 80vh;
 }
 /*Padding que estorban*/
 body > div.container-fluid.section-3 > div > div,
@@ -191,10 +185,10 @@ button.section-3 {
 /*Media-body opacidad*/
 body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body {
   background-color: rgba(0, 0, 0, 0.57);
-  height: 79.9vh;
   padding: 0;
   padding-left: 3vw;
   padding-top: 19vh;
+  padding-bottom: 25vh;
 }
 /*Texto de la sección 3*/
 body > div.container-fluid.section-3 > div > div > div > div > div > div.media-body > p {
@@ -204,28 +198,19 @@ body > div.container-fluid.section-3 > div > div > div > div > div > div.media-b
 
 /*Sección 4*/
 /*Contenedor*/
-div.container-fluid.background-yellow > div > div {
-  height: 92vh;
-  padding-top: 16vh;
-}
-/*Media middle*/
-div.container-fluid.background-yellow > div > div > div > div.media-left.media-middle {
-  height: 30vh;
-  width: 30vw
+div.container-fluid > div.background-yellow > div {
+  padding-top: 14vh;
+  padding-bottom: 12vh;
 }
 /*Estilo mapa*/
-div.container-fluid.background-yellow > div > div > div > div:nth-child(2) > div.maps {
+div.container-fluid > div.background-yellow > div > div > div:nth-child(2) > div.maps {
   border: 1px solid white;
-  height: 61vh;
   padding: 1vh 1vw;
-  width: 40vw;
 }
 /*Texto*/
-div.container-fluid.background-yellow > div > div > div > div.col-md-offset-1.col-md-4 {
+div.container-fluid > div.background-yellow > div > div > div.col-md-offset-1.col-md-4 {
   color: white;
-  height: 56vh;
-  padding: ;
-  width: 35vw;
+  padding: 10vh 3vw;
 }
 /*Mapa Google*/
 .google-maps {
@@ -242,9 +227,6 @@ div.container-fluid.background-yellow > div > div > div > div.col-md-offset-1.co
   height: 100% !important;
 }
 
-div.container-fluid.background-yellow > div > div > div > div.col-md-offset-1.col-md-4 {
-  padding-top: 5vh;
-}
 /*Íconos*/
 #basic-addon1 {
   background-color: transparent;
@@ -273,7 +255,6 @@ div.input2 > div > input:focus {
 div.input1,
 div.input2 {
   margin-top: 5vh;
-  width: 30vw;
 }
 /*p*/
 div.container-fluid.background-yellow > div > div > div > div.col-md-offset-1.col-md-4 > p {
@@ -282,11 +263,15 @@ div.container-fluid.background-yellow > div > div > div > div.col-md-offset-1.co
 }
 /*Botón*/
 div.col-md-offset-1.col-md-4 > p:nth-child(5) > a {
-  margin: 6vh 0 0 10vw;
-
+  margin-left: 10vw;
+  margin-top: 5vh;
 }
 
 /*Clases reutilizable*/
 .background-yellow {
   background-color: #F7B617;
+}
+
+.m-0 {
+  margin: 0px;
 }

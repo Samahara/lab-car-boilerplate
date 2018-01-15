@@ -263,13 +263,36 @@ div.container-fluid.background-yellow > div > div > div > div.col-md-offset-1.co
 }
 /*Botón*/
 div.col-md-offset-1.col-md-4 > p:nth-child(5) > a {
-  margin-left: 10vw;
+  margin-left: 12vw;
   margin-top: 5vh;
 }
 
+/*Footer*/
+div.footer {
+  color: white;
+  padding-top: 8vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+div.footer-copyright {
+  padding-bottom: 8vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+div.footer-icons {
+  padding-left: 5vw;
+}
+div.footer-icons > a > i {
+  color: white;
+}
 /*Clases reutilizable*/
 .background-yellow {
   background-color: #F7B617;
+}
+
+.backgroundColor-color-footer {
+  background-color: #2B2B2B;
+  color: white;
 }
 
 .m-0 {
